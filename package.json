@@ -1,0 +1,15 @@
+{
+  "name": "learn-udemy-typescript-complete-developers-guide",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/isoppp/learn-udemy-typescript-complete-developers-guide.git",
+  "author": "isoppp <prog@d2deck.com>",
+  "license": "MIT",
+  "scripts": {
+    "dp-map": "parcel watch ./design-patterns/maps/index.html"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.3",
+    "typescript": "^3.6.3"
+  }
+}
