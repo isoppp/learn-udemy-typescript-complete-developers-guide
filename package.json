@@ -6,10 +6,15 @@
   "author": "isoppp <prog@d2deck.com>",
   "license": "MIT",
   "scripts": {
-    "dp-map": "parcel watch ./design-patterns/maps/index.html"
+    "dp-map": "parcel ./design-patterns/maps/index.html"
   },
   "devDependencies": {
+    "@types/faker": "^4.1.5",
+    "@types/googlemaps": "^3.37.7",
     "parcel-bundler": "^1.12.3",
     "typescript": "^3.6.3"
+  },
+  "dependencies": {
+    "faker": "^4.1.0"
   }
 }
